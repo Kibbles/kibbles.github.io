@@ -58,11 +58,28 @@ a.button {
     transition: all 0.2s ease;
 }
 
-a.button:hover {
+a.navbutton {
+    display: inline-block;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    opacity: 0.7;
+    border: 2px solid white;
+    width: 200px;
+    height: 50px;
+    transition: all 0.2s ease;
+    justify-content: center;
+    align-items: center;
+}
+
+a.button:hover, a.navbutton:hover {
     display: inline-block; 
     background-color: grey;
     opacity: 1;
     border: 2px solid black;
+    justify-content: center;
+    align-items: center;
 }
 
 hr {
