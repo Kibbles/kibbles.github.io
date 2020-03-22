@@ -60,6 +60,7 @@ a.button {
 
 a.navbutton {
     display: inline-block;
+    font-size: large;
     padding: 5px;
     background-color: black;
     color: white;
@@ -87,4 +88,17 @@ hr {
     background-color: black;
     border: 1px solid black;
     width: 75%;
+}
+
+.Centered
+{
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.Centerer
+{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
 }
