@@ -76,6 +76,26 @@ a.button {
     transition: all 0.2s ease;
 }
 
+a.button.news{
+    background-color:#1c4b59;
+}
+
+a.button.intnews{
+    background-color:#1c3959;
+}
+
+a.button.support{
+    background-color:#284515;
+}
+
+a.button.prepare{
+    background-color:#3f1545;
+}
+
+a.button.social{
+    background-color:#191545;
+}
+
 a.navbutton {
     display: inline-block;
     font-size: large;
