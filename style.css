@@ -76,23 +76,23 @@ a.button {
     transition: all 0.2s ease;
 }
 
-a.button.news{
+a.button.news {
     background-color:#1c4b59;
 }
 
-a.button.intnews{
+a.button.intnews {
     background-color:#1c3959;
 }
 
-a.button.support{
+a.button.support {
     background-color:#284515;
 }
 
-a.button.prepare{
+a.button.prepare {
     background-color:#3f1545;
 }
 
-a.button.social{
+a.button.social {
     background-color:#191545;
 }
 
@@ -110,6 +110,22 @@ a.navbutton {
     transition: all 0.2s ease;
     justify-content: center;
     align-items: center;
+}
+
+a.navbutton.news {
+    background-color:#1c4b59;
+}
+
+a.navbutton.support {
+    background-color:#284515;
+}
+
+a.navbutton.prepare {
+    background-color:#3f1545;
+}
+
+a.navbutton.social {
+    background-color:#191545;
 }
 
 a.button:hover, a.navbutton:hover {
