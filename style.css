@@ -63,7 +63,7 @@ div.textblock{
 
 div.warning {
     position: relative;
-	top: 0;
+	top: 0px;
 	bottom: 0;
 	left: 0;
 	right: 0;
@@ -71,7 +71,7 @@ div.warning {
     text-align: center;
     font-size: 18px;
     width: 600px;
-    padding:10px;
+    padding: 10px;
     background-color: #ff9999;
     border: 3px dashed red;
 }
